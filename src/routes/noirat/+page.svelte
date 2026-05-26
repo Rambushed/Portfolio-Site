@@ -70,4 +70,5 @@
 
     <p>I may also opt for object based shading instead of viewport based shading to create a more consistent visual effect with less artifacting.</p>
     <a href="/" class = "btn">Back to portfolio</a>
+    <footer><p>© 2026 Rambush</p></footer>
 </main>

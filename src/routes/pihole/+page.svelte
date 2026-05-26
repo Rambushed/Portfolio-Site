@@ -87,4 +87,5 @@
 
     <p>The setup for unbound was completely unhindered by Optus as the network is now largely controlled by the Pi, there is plenty of writeups on configuring unbound so i won't bother with that here.</p>
     <a href="/" class = "btn">Back to portfolio</a>
+    <footer><p>© 2026 Rambush</p></footer>
 </main>

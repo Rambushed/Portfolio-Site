@@ -67,4 +67,5 @@
     </div>
 
     <a href="/" class = "btn">Back to portfolio</a>
+    <footer><p>© 2026 Rambush</p></footer>
 </main>

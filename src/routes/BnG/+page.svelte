@@ -20,4 +20,5 @@
     <p>I still actively maintain this project as new products are added and frequently make small tweaks to styling and structure as i learn more.</p>
    
     <a href="https://bellandgong.com" target="_blank" class = "btn">Visit Bell & Gong</a>
+    <footer><p>© 2026 Rambush</p></footer>
 </main>
