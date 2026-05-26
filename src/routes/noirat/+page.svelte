@@ -69,5 +69,5 @@
     <p>I might revisit this in the future, the next thing i planned to do was create emmisive shapes to simulate projected light as enabling volumetric fog creates visual issues for this project, but without it there is no light projection.</p>
 
     <p>I may also opt for object based shading instead of viewport based shading to create a more consistent visual effect with less artifacting.</p>
-    <a href="/" target="_blank" class = "btn">Back to portfolio</a>
+    <a href="/" class = "btn">Back to portfolio</a>
 </main>
