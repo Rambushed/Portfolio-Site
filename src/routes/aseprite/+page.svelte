@@ -66,5 +66,5 @@
         </div>   
     </div>
 
-    <a href="/" target="_blank" class = "btn">Back to portfolio</a>
+    <a href="/" class = "btn">Back to portfolio</a>
 </main>

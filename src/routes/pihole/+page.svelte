@@ -86,5 +86,5 @@
     <p>Unbound is a recursive DNS resolver, instead of asking Cloudflare (the upstream i chose for Pi-hole) for DNS resolutions, it works through the DNS hierarchy itself to find the authoritative server, so that no single third-party has a full list of your browsing data</p>
 
     <p>The setup for unbound was completely unhindered by Optus as the network is now largely controlled by the Pi, there is plenty of writeups on configuring unbound so i won't bother with that here.</p>
-    <a href="/" target="_blank" class = "btn">Back to portfolio</a>
+    <a href="/" class = "btn">Back to portfolio</a>
 </main>
