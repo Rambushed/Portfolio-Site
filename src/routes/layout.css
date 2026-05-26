@@ -108,6 +108,7 @@ footer {
     padding-top: 1rem;
     display: flex;
     flex-direction: row;
+    gap: 70%;
 }
 
 .link {
@@ -270,7 +271,7 @@ footer {
 }
 
 .btn.contact {
-    position: absolute;
+
     display: inline-block;
     right: 150px;
     margin-top: 0;
