@@ -1,6 +1,6 @@
 <script>
 	import './layout.css';
-	import favicon from '$lib/assets/tessaliteStructure.png';
+	import favicon from '$lib/assets/TESSALITEfactory.png';
 
 	let { children } = $props();
 </script>
