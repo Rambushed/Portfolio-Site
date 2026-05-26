@@ -75,5 +75,8 @@
             </a>
         </div>
     </div>
-<footer><p>© 2026 Rambush</p></footer>
+    <footer>
+        <p>© 2026 Rambush</p>
+        <a href="/contact" class = "btn contact">Contact me</a>
+    </footer>
 </main>

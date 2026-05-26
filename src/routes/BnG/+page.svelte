@@ -8,6 +8,7 @@
     <hr>
 
     <h3>Bell & Gong Vineyard</h3>
+    <p class="date">May 2026</p>
     <a href="https://bellandgong.com" target="_blank">
         <img class="hero" src={BellGong} alt ="Bell & Gong Vineyard"/>
     </a>
@@ -20,5 +21,8 @@
     <p>I still actively maintain this project as new products are added and frequently make small tweaks to styling and structure as i learn more.</p>
    
     <a href="https://bellandgong.com" target="_blank" class = "btn">Visit Bell & Gong</a>
-    <footer><p>© 2026 Rambush</p></footer>
+<footer>
+    <p>© 2026 Rambush</p>
+    <a href="/contact" class = "btn contact">Contact me</a>
+</footer>
 </main>

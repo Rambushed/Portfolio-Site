@@ -12,6 +12,7 @@
     <hr>
 
     <h3>Pi-hole, Unbound and Optus</h3>
+    <p class="date">May 2026</p>
     <a href="https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/" target="_blank">
         <img class="hero" src={pihole} alt ="Bell & Gong Vineyard"/>
     </a>
@@ -87,5 +88,8 @@
 
     <p>The setup for unbound was completely unhindered by Optus as the network is now largely controlled by the Pi, there is plenty of writeups on configuring unbound so i won't bother with that here.</p>
     <a href="/" class = "btn">Back to portfolio</a>
-    <footer><p>© 2026 Rambush</p></footer>
+    <footer>
+        <p>© 2026 Rambush</p>
+        <a href="/contact" class = "btn contact">Contact me</a>
+    </footer>
 </main>

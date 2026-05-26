@@ -17,6 +17,7 @@
     <hr>
 
     <h3>Pixel Art</h3>
+    <p class="date">May 2026</p>
     <img class="hero contain" src={ghoul} alt ="a ghoul"/>
     <p>Whilst learning the Godot engine i opted to try and make all my own animated pixel sprites and environments. as of writing this i have amassed over 200 hours in Aseprite. this is my first experience with pixel art, I am definitely not an artistic person but creating these was a fun process and i plan to keep learning.</p>
 
@@ -67,5 +68,8 @@
     </div>
 
     <a href="/" class = "btn">Back to portfolio</a>
-    <footer><p>© 2026 Rambush</p></footer>
+    <footer>
+        <p>© 2026 Rambush</p>
+        <a href="/contact" class = "btn contact">Contact me</a>
+    </footer>
 </main>
