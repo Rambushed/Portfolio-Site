@@ -105,6 +105,7 @@ li em {
 }
 
 footer {
+    padding-top: 1rem;
     display: flex;
     flex-direction: row;
 }
@@ -267,6 +268,7 @@ footer {
     background-color: #7B4FA630; /*modern hex value, you can add opacity onto the end... cool.*/
     color: #F5F0FF;
 }
+
 .btn.contact {
     position: absolute;
     display: inline-block;
@@ -281,6 +283,7 @@ footer {
     text-decoration: none;
     transition: background 0.2s ease, color 0.2s ease;
 }
+
 @media (max-width: 768px) {
 
     /*
@@ -406,12 +409,11 @@ footer {
         transition: background 0.2s ease, color 0.2s ease;
     }
 
-    .short { display: none; }
     .btn.contact {
         position: absolute;
         display: inline-block;
-        right: -30px;
-        margin-top: 1.5rem;
+        right: 0;
+        margin-top: 0rem;
         padding: 0.5rem 1em;
         border: none;
         color: #7B4FA6;
@@ -420,10 +422,6 @@ footer {
         text-transform: uppercase;
         text-decoration: none;
         transition: background 0.2s ease, color 0.2s ease;
-        max-width: 150px;
-        text-align: center;
     }
 
-    .full { display: none; }
-    .short { display: inline; }
 }
