@@ -65,7 +65,7 @@
             </a>
         </div>
         <div class="grid-item">
-            <a  href="/">
+            <a  href="/aseprite">
                 <img class="overflow" src={ghoul} alt="Purple Ghoul"/>
             
                 <div class="item-desc">

@@ -16,7 +16,7 @@
     <hr>
 
     <h3>???</h3>
-    <img class="hero" src={rev} alt ="Bell & Gong Vineyard"/>
+    <img class="hero" src={rev} alt ="a harsh light reflecting from a black room"/>
 
     <h4>A jumbled mess of shader experimentation</h4>
     <p>As of writing this entry it has been a long time since i have touched this project, in summary i was experimenting with shaders to try and achieve an effect similar to the game <a class="link" href="https://steamcommunity.com/app/514830" target="_blank">STIFLED</a> but with some differences in how light is perceived by the player.</p>

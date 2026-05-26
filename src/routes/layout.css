@@ -32,12 +32,11 @@ body {
 }
 
 main {
-    width: 80%;
     background-color: #0b0811;
     padding: 1rem 1rem;
     box-shadow: 20px 0 30px rgb(0 0 0 / 10%), -20px 0 30px rgb(0 0 0 / 10%);
     font-size: clamp(12px, 1.2vw, 16px);
-    max-width: 1440px;
+    width: 1440px;
 }
 
 hr {
@@ -59,6 +58,7 @@ main h2 {
 main h3 {
     color: #F5F0FF;
     font-size: 3rem;
+    text-align: center;
 }
 
 main h4 {
@@ -133,12 +133,19 @@ li em {
 
 .grand-item img {
     width: 100%;
-    max-height: 40vh;
+    height: 35rem;
     object-fit: cover;
     display: block;
-    filter: hue-rotate(15deg) brightness(0.9)
-
 }
+
+/*for items that dont fit within the normal div*/
+.grand-item img.overflow {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
 
 .grid-item img {
     object-fit: cover;
@@ -147,6 +154,7 @@ li em {
     height: 100%;
 }
 
+/*for items that dont fit within the normal div*/
 .grid-item img.overflow {
     object-fit: contain;
 }
@@ -185,9 +193,17 @@ li em {
     border-top: 5px solid #4E3A6B;
     border-bottom: 5px solid #4E3A6B;
     box-shadow: 10px 5px 5px rgb(0 0 0 / 20%);
-    max-height: 450px;
+    max-height: 500px;
     width: 100%;
     object-fit: cover;
+}
+
+.hero.contain {
+    object-fit: contain;
+    border: 5px solid #4E3A6B;
+    height: auto;
+    width: auto;
+    margin: auto;
 }
 
 .inlay {
@@ -239,4 +255,131 @@ li em {
 .btn.back:hover {
     background-color: #7B4FA630; /*modern hex value, you can add opacity onto the end... cool.*/
     color: #F5F0FF;
+}
+
+@media (max-width: 768px) {
+
+    /*
+    ******************************
+    ***** Main Component Styling**
+    ******************************
+    */
+
+    main h1 { 
+        color: #F5F0FF;
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    main h2 {
+        color: #F5F0FF;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    main h3 {
+        color: #F5F0FF;
+        font-size: 1.5rem;
+        padding: 1rem 0;
+    }
+
+    main h4 {
+        color: #F5F0FF;
+        font-size: 1.1rem;
+    }
+
+    main p {
+        color: #E2D9F3;
+        font-size: 0.75rem;
+        padding: 0.5rem 0rem; /*Paragraph spacing*/
+    }
+
+    /*
+    ******************************
+    ***** Content Grid Styling  **
+    ******************************
+    */
+    .content-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+        margin: 0.5rem;
+        padding-bottom: 2rem;
+    }
+
+    .grid-item{
+        border-radius: 20px;
+        overflow: hidden;
+        grid-column: span 2;
+        position: relative;
+        box-shadow: 10px 5px 5px rgb(0 0 0 / 20%);
+    }
+
+    .grand-item{
+        border-radius: 20px;
+        overflow: hidden;
+        grid-column: span 2;
+        position: relative;
+        box-shadow: 10px 5px 5px rgb(0 0 0 / 20%);
+    }
+
+    .grand-item img {
+        width: 100%;
+        height: 18rem;
+        object-fit: cover;
+        display: block;
+    }
+
+
+    .item-desc {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 0.5rem;
+        background: linear-gradient(to bottom, transparent, rgba(14, 10, 20, 0.9));
+        border-left: 8px solid #7B4FA6;
+        border-radius: 0 0 12px 12px;
+    }
+
+    .grid-item .item-desc {
+        justify-content: baseline;
+    }
+
+
+
+
+    /*
+    ******************************
+    ***** Button Styling        **
+    ******************************
+    */
+    .btn {
+        display: inline-block;
+        margin-top: 1.5rem;
+        padding: 0.8rem 2rem;
+        border :3px solid #A855F7;
+        color: #7B4FA6;
+        font-size: 1rem;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: background 0.2s ease, color 0.2s ease;
+    }
+
+    .btn.back {
+        position: absolute;
+        display: inline-block;
+        margin-top: 1.5rem;
+        left: 1px;
+        padding: 0.5rem 1em;
+        border: none;
+        color: #7B4FA6;
+        font-size: 1rem;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: background 0.2s ease, color 0.2s ease;
+    }
+
 }
