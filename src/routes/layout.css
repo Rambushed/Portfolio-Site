@@ -1,4 +1,5 @@
 @import 'tailwindcss';
+@import 'prismjs/themes/prism-tomorrow.css';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
 
@@ -17,7 +18,16 @@
 }
 
 
-
+:root {
+    --color-border: #4E3A6B;
+    --color-bg-tertiary: #1a1430;
+    --color-bg-secondary: #221c38;
+    --color-text: #F5F0FF;
+    --color-text-secondary: #b3acc0;
+    --color-text-tertiary: #7B4FA6;
+    --color-code-bg: #0e0a14;
+    --font-mono: 'ZedMono', monospace;
+}
 /*
 ******************************
 ***** Main Component Styling**
@@ -72,6 +82,13 @@ main h5 {
     font-size: 2rem;
     padding-top: 2rem;
 }
+
+main h6 {
+    color: #F5F0FF;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
 main p {
     color: #E2D9F3;
     font-size: 1.4rem;
@@ -113,6 +130,12 @@ footer {
 
 .link {
     color: #22D3EE;
+}
+
+.note {
+    background-color: #5a4585;
+    font-size: 1rem;
+    border-radius: 10px;
 }
 
 /*

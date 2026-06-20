@@ -4,6 +4,7 @@
     import pihole from '$lib/assets/pi.png'
     import rev from '$lib/assets/Light-revvy.png'
     import ghoul from '$lib/assets/Ghoult-export.gif'
+    import finished from '$lib/assets/clock/finished.jpeg'
 </script>
 <main>
     <h1>Rambush</h1>
@@ -36,12 +37,21 @@
     </div>
     <br>
     <hr>
-    <h3>Networking Projects</h3>
+    <h3>Raspberry Pi Projects</h3>
     <div class="content-grid">
-
         <div class="grand-item">
+            <a  href="/piclock">
+                <img src={finished} alt="Raspberry Pi clock using pygame"/>
+            
+                <div class="item-desc">
+                    <h4>Digital clock using Pygame</h4> 
+                    <p>Adding a clockface to my raspberry pi DNS/DHCP device</p>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item">
             <a  href="/pihole">
-                <img src={pihole} alt="Bell & Gong Vineyard website"/>
+                <img src={pihole} alt="Pi-hole on optus network"/>
             
                 <div class="item-desc">
                     <h4>Pi-hole setup on an Optus network</h4> 
