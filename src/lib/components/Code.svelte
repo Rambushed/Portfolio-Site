@@ -58,6 +58,8 @@
 	border: 1px solid var(--color-border);
 	border-radius: 6px;
 	overflow: hidden;
+	width: 100%;
+	max-width: 100%;
 }
 
 .code-block code {
@@ -104,8 +106,16 @@ pre {
 	font-family: var(--font-mono);
 	font-size: 0.875rem;
 	line-height: 1.6;
+	max-width: 100%;
+    overflow-x: auto;
 }
 
+@media (max-width: 768px) {
+	pre {
+		font-size: 0.65rem;
+		padding: 0.75rem;
+	}
+}
 
 .copy-btn {
 	padding: 0.25rem;

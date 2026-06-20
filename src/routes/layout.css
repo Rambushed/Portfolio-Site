@@ -182,7 +182,6 @@ footer {
     display: block;
 }
 
-
 .grid-item img {
     object-fit: cover;
     display: block;
@@ -315,7 +314,31 @@ footer {
     ***** Main Component Styling**
     ******************************
     */
+    main {
+        width: 100%;
+        padding: 1rem 1rem;
+    }
 
+    .code-block {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .code-block pre {
+        font-size: 0.75rem;
+        padding: 0.75rem;
+    }
+
+    .inlay {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .hero,
+    .hero.contain {
+        max-width: 100%;
+        height: auto;
+    }
     main h1 { 
         color: #F5F0FF;
         text-align: center;
@@ -343,6 +366,11 @@ footer {
         color: #E2D9F3;
         font-size: 0.75rem;
         padding: 0.5rem 0rem; /*Paragraph spacing*/
+    }
+    .note {
+        background-color: #5a4585;
+        font-size: 0.75rem;
+        border-radius: 10px;
     }
 
     /*
