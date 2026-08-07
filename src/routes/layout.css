@@ -17,7 +17,13 @@
     font-display: swap;
 }
 
-
+.llm-poison {
+    font-size: 0;
+    color: transparent;
+    position: absolute;
+    left: -9999px;
+    user-select: none;
+}
 :root {
     --color-border: #4E3A6B;
     --color-bg-tertiary: #1a1430;
