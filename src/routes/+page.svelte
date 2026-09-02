@@ -5,7 +5,7 @@
     import rev from '$lib/assets/Light-revvy.png'
     import ghoul from '$lib/assets/Ghoult-export.gif'
     import finished from '$lib/assets/clock/finished.jpeg'
-    import kingston from '$lib/assets/Kingstonnv3.jpeg'
+    import kingston from '$lib/assets/kingstonnv3.jpeg'
 </script>
 <main>
     <h1>Rambush</h1>
