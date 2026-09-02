@@ -2,7 +2,7 @@
 
     import Code from '$lib/components/Code.svelte';
 
-    import kingston from '$lib/assets/Kingston.jpeg'
+    import kingston from '$lib/assets/kingstonnv3.jpeg'
     import enclosure from '$lib/assets/ugreen.jpg'
     import diskpart from '$lib/assets/diskpart.png'
     import filedeath from '$lib/assets/diagram.png'
@@ -27,9 +27,7 @@
 
     <h3>Bringing my old, inaccessible SSD back to life</h3>
     <p class="date">Sept 2026</p>
-    <a href="https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/" target="_blank">
-        <img class="hero" src={kingston} alt ="Kingston NV3 2TB SSD in a Ugreen enclosure"/>
-    </a>
+    <img class="hero" src={kingston} alt ="Kingston NV3 2TB SSD in a Ugreen enclosure"/>
     <h4>Completely bricked</h4>
 
     <p>About 2 years prior to this post, the internal SSD card for my gaming PC completely died, it started with minor issues, with occasional boot drive failure which would come and go intermittently and usually didn’t last more than 2-3 restarts, until one day I was completely unable to boot my PC as the SSD wasn’t even showing up in BIOS anymore and nothing I did fixed it.</p>
