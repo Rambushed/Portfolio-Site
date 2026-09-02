@@ -5,6 +5,7 @@
     import rev from '$lib/assets/Light-revvy.png'
     import ghoul from '$lib/assets/Ghoult-export.gif'
     import finished from '$lib/assets/clock/finished.jpeg'
+    import kingston from '$lib/assets/Kingston.jpeg'
 </script>
 <main>
     <h1>Rambush</h1>
@@ -81,6 +82,19 @@
                 <div class="item-desc">
                     <h4>Aseprite</h4> 
                     <p>Pixel art i made while learning Aseprite</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <h3>miscellaneous personal projects</h3>
+    <div class="content-grid">
+        <div class="grand-item">
+            <a  href="/ssd">
+                <img src={kingston} alt="reviving a dead Kingston NV3 2TB SSD card"/>
+            
+                <div class="item-desc">
+                    <h4>Reviving a fried SSD</h4> 
+                    <p>manually wiping a very uncooperative SSD</p>
                 </div>
             </a>
         </div>
