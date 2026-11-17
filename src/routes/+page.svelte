@@ -6,6 +6,7 @@
     import ghoul from '$lib/assets/Ghoult-export.gif'
     import finished from '$lib/assets/clock/finished.jpeg'
     import kingston from '$lib/assets/kingstonnv3.jpeg'
+    import race from '$lib/assets/car.png'
 </script>
 <main>
     <h1>Rambush</h1>
@@ -26,15 +27,15 @@
         </div>
 
         <div class="grid-item">
-            <a href="/">
-                <img class="overflow" src={callStack} alt="Bell & Gong Vineyard website"/>
+            <a href="/motorsite">
+                <img class="overflow" src={race} alt="Longford Heritage Motor Racing Museum"/>
+            
+                <div class="item-desc">
+                <h4>Longford Motor Racing Museum</h4>
+                <p>Promo website for a great cause</p>
+                </div>
             </a>
-            <div class="item-desc">
-               <h4>callStack</h4>
-               <p>Training program manager</p>
-            </div>
         </div>
-
     </div>
     <br>
     <hr>
